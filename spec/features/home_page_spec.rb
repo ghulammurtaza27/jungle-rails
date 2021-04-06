@@ -23,6 +23,6 @@ RSpec.feature "Visitor navigates to home page", type: :feature, js: true do
     # save_and_open_screenshot
 
     expect(page).to have_css 'article.product', count: 10
-    save_screenshot 'test_1_products_page.png'
+    #save_screenshot 'test_1_products_page.png'
   end
 end

@@ -22,6 +22,6 @@ RSpec.feature "Product Details", type: :feature, js: true do
     # save_and_open_screenshot
     click_link('Details', match: :first)
     expect(page).to have_css('.product-detail')
-    save_screenshot 'test_2_product_details.png'
+    #save_screenshot 'test_2_product_details.png'
   end
 end
